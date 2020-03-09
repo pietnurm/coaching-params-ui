@@ -1,7 +1,7 @@
 {
   "id": "coaching-params-ui",
   "name": "coaching-params-ui",
-  "srcdoc": "./src/App.js",
+  "srcdoc": "./src/index.html",
   "fieldTypes": [
     "Number"
   ]
