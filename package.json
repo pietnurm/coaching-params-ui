@@ -1,20 +1,37 @@
 {
-  "name": "parameter-slider",
+  "name": "coaching-params-ui",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "devDependencies": {
+    "@contentful/contentful-extension-scripts": "0.15.1",
+    "@contentful/eslint-config-extension": "0.3.1",
+    "@babel/core": "7.3.4",
+    "@babel/plugin-proposal-class-properties": "7.3.4",
+    "@babel/plugin-transform-runtime": "7.3.4",
+    "@babel/preset-env": "7.3.4",
+    "@babel/preset-react": "7.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "cssnano": "4.1.10",
+    "contentful-cli": "0.33.2",
+    "eslint": "^6.0.1"
+  },
+  "scripts": {
+    "start": "contentful-extension-scripts start",
+    "build": "contentful-extension-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@contentful/forma-36-fcss": "^0.0.20",
+    "@contentful/forma-36-react-components": "^3.11.3",
+    "@contentful/forma-36-tokens": "^0.3.0",
+    "contentful-ui-extensions-sdk": "3.9.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
